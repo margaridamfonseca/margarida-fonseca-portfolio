@@ -3,8 +3,43 @@
     --soft-background: #D7F9F1;
     --details-contrast: #172A3A;
     --alternative-titles: #CC978E;
-    --alternative-background:#E6B89C;
+    --alternative-background:rgb(250, 230, 218);
     --font-merri: "Merriweather", serif;
     --font-lato:"Lato", sans-serif;
 }
 
+
+.text-content{
+    padding: 60px 20px;
+    text-align: center;
+    background-color: var(--alternative-background);
+    
+}
+
+h1{
+    font-family: var(--font-merri);
+    font-weight: 1000;
+    font-size: 50px;
+}
+
+h2{
+    font-family: var(--font-lato);
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.initial-buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.button{
+    margin: auto 10px;
+    padding: 20px;
+    background-color: var(--details-contrast);
+    border-radius: 10px;
+    color: var(--alternative-titles);
+    text-decoration: none;
+}

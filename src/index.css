@@ -19,13 +19,20 @@
 h1{
     font-family: var(--font-merri);
     font-weight: 1000;
-    font-size: 50px;
+    font-size: 96px;
 }
 
 h2{
     font-family: var(--font-lato);
-    font-size: 20px;
+    font-size: 40px;
     margin-top: 10px;
+}
+
+p{
+    font-family: var(--font-lato);
+    font-size: 16px; 
+    margin-bottom: 30px;
+    line-height: 1.7;
 }
 
 .initial-buttons{
@@ -42,4 +49,54 @@ h2{
     border-radius: 10px;
     color: var(--alternative-titles);
     text-decoration: none;
+}
+
+.img{    
+    max-width: 70%;  
+}
+
+.description{
+    padding: 20px;
+}
+
+
+.mid-text-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.btn-learn{
+    padding: 10px 20px;
+    border: 2px solid var(--alternative-titles);
+    border-radius: 10px;
+    color: var(--alternative-titles);
+    text-decoration: none;
+    font-size: 14px; 
+    
+}
+
+
+
+
+@media (max-width: 900px){
+    h1{
+        font-size: 35px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .button{
+        font-size: 14px;
+    }
+    .description{
+        text-align: center;
+        margin: 0;
+        padding: 2px;
+    }
+    .mid-text-title{
+        margin-bottom: 15px;
+    }
 }

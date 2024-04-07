@@ -4,6 +4,7 @@
     --details-contrast: #172A3A;
     --alternative-titles: #CC978E;
     --alternative-background:rgb(250, 230, 218);
+    --footer-background:#F8F9FA;
     --font-merri: "Merriweather", serif;
     --font-lato:"Lato", sans-serif;
 }
@@ -112,6 +113,14 @@ i{
 
 .serviços p{
     font-size: 16px;   
+}
+
+footer i{
+    color: var(--alternative-titles);
+}
+
+footer{
+    border-top: 2px solid var(--alternative-titles);
 }
 
 @media (max-width: 900px){

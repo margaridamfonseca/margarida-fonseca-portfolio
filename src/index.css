@@ -10,7 +10,7 @@
 
 
 .text-content{
-    padding: 60px 20px;
+    padding: 120px 20px 80px 20px;
     text-align: center;
     background-color: var(--alternative-background);
     
@@ -33,6 +33,18 @@ p{
     font-size: 16px; 
     margin-bottom: 30px;
     line-height: 1.7;
+}
+
+h3{
+    font-family: var(--font-lato);
+    font-weight: bold; 
+    
+}
+
+.serviços a{
+    color: var(--alternative-titles);
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .initial-buttons{
@@ -76,6 +88,24 @@ p{
     
 }
 
+.serviços{
+    padding: 20px 0; 
+    text-align: center;
+    background-color: var(--alternative-background);
+}
+
+.grid-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+i{
+    margin-right: 30px;
+    margin-top: 15px;
+
+}
+
 
 
 
@@ -84,9 +114,13 @@ p{
         font-size: 35px;
     }
 
-    h2{
+    h2, h3{
         font-size: 20px;
     }
+
+   i{
+       margin-right: 10px;
+   }
 
     .button{
         font-size: 14px;
@@ -98,5 +132,10 @@ p{
     }
     .mid-text-title{
         margin-bottom: 15px;
+        font-size: 25px;
+    }
+
+    p{
+        font-size: 14px;
     }
 }
